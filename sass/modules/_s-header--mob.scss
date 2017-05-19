@@ -1,0 +1,48 @@
+.s-header--mob{
+	padding: 15px 0;
+	display: none;
+	background-color: #FFF;
+	@include res(m){
+		display: block;
+	}
+
+	.container{
+		display: flex;
+		align-items: center;
+	}
+}
+
+.head-logo-mob{
+	max-width: 45%;
+
+	img{
+		display: block;
+		height: 44px;
+		width: auto;
+	}
+}
+
+.phone-block-mob{
+	line-height: 1.2;
+	margin-left: auto;
+	white-space: nowrap;
+
+	a{
+		font-size: 18px;
+		color: $black;
+		text-decoration: none;
+		display: block;
+	}
+
+	span{
+		font-size: 14px;
+		font-weight: 500;
+		color: $color-brand;
+		cursor: pointer;
+		transition: color 0.3s ease;
+
+		&:hover{
+			color: lighten($color-brand,15%);
+		}
+	}
+}

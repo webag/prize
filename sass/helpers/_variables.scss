@@ -1,0 +1,22 @@
+$breakpoints: (
+	'xl': (max-width: 1300px),
+	'l': (max-width: 1024px),
+	'm': (max-width: 768px),
+	's': (max-width: 600px)
+);
+
+$font: 'Roboto', sans-serif;
+$font-title: 'Roboto Slab', serif;
+$font-icons: 'prize' !important;
+
+$black: #2d2d2d;
+$grey: #8f8f8f;
+$red: #e31e24;
+
+$color-text: #696969;
+$color-title: #373c45;
+$color-brand: #e31e24;
+$color-body: #eeeeee;
+$color-head_foot_bg: #dcdcdc;
+
+$container_width: 1380px;

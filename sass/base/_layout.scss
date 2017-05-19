@@ -1,0 +1,131 @@
+.container{
+	margin: 0 auto;
+	width: 100%;
+	max-width: $container_width;
+	position: relative;
+	padding: 0 30px;
+	@include res(l){
+		padding: 0 15px;
+	}
+}
+
+.clearfix{
+	&:before{
+		content: " ";
+		display: table;
+	}
+	&:after{
+		content: " ";
+		display: table;
+		clear: both;
+	}
+}
+
+.img-responsive{
+	width: 100%;
+	height: auto;
+}
+
+.page-wrap{
+	width: 100%;
+	padding: 25px 0;
+	@include res(s){
+		padding: 0;
+	}
+
+	&__container{
+		display: flex;
+		flex: 1;
+		@include res(s){
+			padding: 0;
+		}
+	}
+}
+
+.page-aside{
+	width: 310px;
+	flex-shrink: 0;
+	padding-right: 35px;
+	@include res(l){
+		padding-right: 20px;
+		width: 240px;
+	}
+	@include res(m){
+		display: none;
+	}
+}
+
+.page-main{
+	width: 100%;
+	flex-shrink: 1;
+}
+
+
+//blocks
+.l-block{
+	background: #FFF;
+	@extend %full-padding;
+
+	&--margin{
+		margin-bottom: 35px;
+		@include res(s){
+			margin-bottom: 15px;
+		}
+	}
+
+	&--bt{
+		border-top: 1px solid $color-body;
+	}
+	&--bb{
+		border-bottom: 1px solid $color-body;
+	}
+}
+//blocks
+
+
+//to-top-link
+.to-top-link{
+	display: inline-block;
+	padding: 10px 30px;
+	color: $grey;
+	text-decoration: none;
+	font-size: 16px;
+	white-space: nowrap;
+	border-radius: 4px;
+	transition: all 0.3s ease;
+	position: fixed;
+	left: 30px;
+	bottom: 10px;
+	z-index: 10;
+	transform: none;
+	@include res(l){
+		left: 15px;
+		bottom: 15px;
+		padding: 10px 15px;
+		font-size: 14px;
+	}
+
+	&:hover{
+		background-color: darken($color-body,2%);
+		color: $grey;
+	}
+
+	i{
+		font-size: 14px;
+		display: inline-block;
+		vertical-align: baseline;
+		margin-right: 10px;
+		transform: rotate(180deg);
+	}
+
+	&--hidden{
+		visibility: hidden;
+		transform: translate(0,-10px);
+		opacity: 0;
+	}
+}
+//to-top-link
+
+.section-title{
+	margin-bottom: 20px;
+}

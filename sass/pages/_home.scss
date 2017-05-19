@@ -1,0 +1,44 @@
+.s-home-about{
+	.h2{
+		a{
+			color: $black;
+			@extend %bordered-link;
+
+			&:hover{
+				color: $color-brand;
+			}
+		}
+	}
+
+	&__right{
+		@include res(s){
+			margin-top: 30px;
+		}
+	}
+}
+
+.hero-block{
+	display: flex;
+	align-items: flex-start;
+	font-size: 14px;
+	padding-left: 35px;
+
+	img{
+		flex-shrink: 0;
+		margin-right: 20px;
+	}
+
+	span{
+		display: block;
+		position: relative;
+		flex-shrink: 1;
+
+		&:before{
+			content: '—';
+			color: $color-brand;
+			position: absolute;
+			left: -14px;
+			top: 0;
+		}
+	}
+}

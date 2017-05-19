@@ -1,0 +1,42 @@
+.s-page-header{
+	.h1{
+		margin-bottom: 0;
+	}
+
+	&+*{
+		padding-top: 0;
+	}
+}
+
+//breadcrumbs
+.breadcrumbs{
+	font-size: 14px;
+	color: $grey;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+
+	a{
+		display: block;
+		position: relative;
+		flex-shrink: 1;
+		margin-right: 10px;
+		text-decoration: none;
+		color: $grey;
+		transition: all 0.3s ease;
+
+		&:after{
+			content: '\e910';
+			display: inline-block;
+			font-family: $font-icons;
+			font-size: 9px;
+			padding-left: 10px;
+			pointer-events: none;
+		}
+
+		&:hover{
+			color: $black;
+		}
+	}
+}
+//breadcrumbs

@@ -1,0 +1,52 @@
+.s-pagination{
+	background: #FFF;
+	@extend %full-padding;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	user-select: none;
+	@include res(s){
+		flex-wrap: wrap;
+	}
+
+	.btn{
+
+	}
+}
+
+.pager{
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: $color-brand;
+	font-weight: 500;
+	@include res(s){
+		padding: 10px 0;
+		width: 100%;
+	}
+
+	a{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 38px;
+		height: 38px;
+		text-decoration: none;
+		border-radius: 50%;
+		transition: all 0.3s ease;
+		@include res(s){
+			width: 30px;
+			height: 30px;
+		}
+
+		&:hover{
+			background: darken(#f8f8f8,5%);
+		}
+		
+		&.active{
+			background: $color-brand;
+			color: #FFF;
+		}
+	}
+}

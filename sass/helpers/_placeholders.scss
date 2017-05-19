@@ -1,0 +1,33 @@
+%grid {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: -4px;
+	padding: 0 15px;
+}
+
+%side-padding{
+	padding-left: 30px;
+	padding-right: 30px;
+	@include res(s){
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+%full-padding{
+	padding: 20px 30px;
+	@include res(s){
+		padding: 20px 15px;
+	}
+}
+
+%bordered-link{
+	text-decoration: none;
+	border-bottom: 1px solid currentcolor;
+	transition: all 0.3s ease;
+
+	&:hover{
+		color: $color-brand;
+	}
+}

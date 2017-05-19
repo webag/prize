@@ -1,0 +1,15 @@
+.round-links{
+
+	a{
+		margin: 0 15px 15px 0;
+		@include res(s){
+			margin: 0 2px 7px 0;
+		}
+
+		&.current{
+			background: #d5d9db;
+			color: #5f6268;
+			pointer-events: none;
+		}
+	}
+}

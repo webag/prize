@@ -1,0 +1,31 @@
+.hidden{
+	display: none !important;
+}
+
+.row{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+@for $i from 1 through 12 {
+	.grid-#{$i} {
+		@extend %grid;
+		width: 1 / 12 * $i * 100%;
+	}
+}
+
+@each $breakpoint,$value in $breakpoints {
+	@include res($breakpoint){
+		@for $i from 1 through 12 {
+			.grid-#{$i}_#{$breakpoint} {
+				width: 1 / 12 * $i * 100%;
+			}
+		}
+		.hidden_#{$breakpoint}{
+			display: none !important;
+		}
+		.visible_#{$breakpoint}{
+			display: block;
+		}
+	}
+}

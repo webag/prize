@@ -1,0 +1,106 @@
+.s-footer{
+	background: $color-head_foot_bg;
+	font-size: 14px;
+	padding: 30px 0 20px 0;
+	@include res(m){
+		padding-bottom: 30px;
+	}
+
+	.container{
+		display: flex;
+		@include res(m){
+			flex-wrap: wrap;
+		}
+	}
+}
+
+.policy{
+	width: 310px;
+	padding-right: 40px;
+	flex-shrink: 0;
+	@include res(l){
+		padding-right: 20px;
+		width: 220px;
+	}
+	@include res(m){
+		width: 50%;
+		order: 2;
+	}
+	@include res(s){
+		width: 100%;
+		order: 3;
+	}
+}
+
+.foot-nav{
+	flex-shrink: 1;
+	max-width: 650px;
+	@include res(m){
+		width: 100%;
+		order: 1;
+		margin-bottom: 10px;
+		max-width: 100%;
+	}
+
+	a{
+		display: inline-block;
+		text-decoration: none;
+		color: $black;
+		margin: 0 40px 15px 0;
+		@include res(m){
+			margin-right: 25px;
+		}
+
+		&:hover{
+			color: $grey;
+		}
+
+		&.active{
+			color: $grey;
+		}
+	}
+}
+
+
+.foot-right{
+	flex-shrink: 0;
+	margin-left: auto;
+	text-align: right;
+	@include res(m){
+		width: 50%;
+		order: 2;
+	}
+	@include res(s){
+		width: 100%;
+		order: 2;
+		text-align: left;
+		margin-bottom: 20px;
+	}
+
+
+	.develop{
+		color: $grey;
+		text-decoration: none;
+
+		&:hover{
+			color: $black;
+		}
+	}
+}
+
+.foot-user{
+
+	a{
+		display: inline-block;
+		text-decoration: none;
+		color: $black;
+		margin: 0 0 15px 20px;
+		@include res(s){
+			margin: 0 20px 15px 0;
+		}
+
+		&:hover{
+			color: $grey;
+		}
+	}
+}
