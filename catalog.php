@@ -282,7 +282,7 @@
 					<div class="product-table__col"><a href="#" class="btn">В корзину</a></div>
 				</div>
 			</div>
-			<a href="/product-details.php" class="link-to-all">Подробнее о товаре <i class="i-right-alt"></i></a>
+			<a href="/product-details.php" class="link-with-icon">Подробнее о товаре <i class="i-right-round"></i></a>
 		</div>
 	</div>
 
@@ -370,7 +370,7 @@
 					<div class="product-table__col"><a href="#" class="btn">В корзину</a></div>
 				</div>
 			</div>
-			<a href="/product-details.php" class="link-to-all">Подробнее о товаре <i class="i-right-alt"></i></a>
+			<a href="/product-details.php" class="link-with-icon">Подробнее о товаре <i class="i-right-round"></i></a>
 		</div>
 	</div>
 
@@ -443,7 +443,7 @@
 					<div class="product-table__col"><a href="#" class="btn">В корзину</a></div>
 				</div>
 			</div>
-			<a href="/product-details.php" class="link-to-all">Подробнее о товаре <i class="i-right-alt"></i></a>
+			<a href="/product-details.php" class="link-with-icon">Подробнее о товаре <i class="i-right-round"></i></a>
 		</div>
 	</div>
 

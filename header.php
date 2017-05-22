@@ -78,7 +78,7 @@
 		</div>
 
 		<div class="head-cart-wrap">
-			<a href="#" class="head-cart">
+			<a href="/cart.php" class="head-cart">
 				<div class="head-cart-icon">
 					<i class="i-cart"></i>
 					<span>15</span>

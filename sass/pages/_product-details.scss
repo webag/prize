@@ -8,46 +8,6 @@
 
 }
 
-.product-description-tabs{
-	background: #FFF;
-	@extend %side-padding;
-	padding-top: 15px;
-	padding-bottom: 5px;
-	border-bottom: 1px solid $color-body;
-
-	a{
-		display: inline-block;
-		text-decoration: none;
-		color: $grey;
-		margin-right: 30px;
-		transition: all 0.3s ease;
-		@include res(s){
-			font-size: 14px;
-			margin-right: 15px;
-		}
-
-		&:hover{
-			color: $black;
-		}
-
-		&.active{
-			color: $black;
-		}
-	}
-}
-
-.product-description-tab{
-	display: none;
-
-	&.active{
-		display: block;
-	}
-
-	img{
-		max-width: 100%;
-		height: auto;
-	}
-}
 
 .product-description-text{
 	max-width: 600px;

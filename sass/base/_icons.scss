@@ -23,26 +23,11 @@ i {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.i-refresh:before {
-	content: "\e90d";
+.i-eye-open:before {
+	content: "\e919";
 }
-.i-close:before {
-	content: "\e90c";
-}
-.i-check:before {
-	content: "\e90b";
-}
-.i-down:before {
-	content: "\e90e";
-}
-.i-left:before {
-	content: "\e90f";
-}
-.i-right:before {
-	content: "\e910";
-}
-.i-up:before {
-	content: "\e911";
+.i-eye-close:before {
+	content: "\e91a";
 }
 .i-file:before {
 	content: "\e900";
@@ -76,4 +61,46 @@ i {
 }
 .i-enter:before {
 	content: "\e90a";
+}
+.i-check:before {
+	content: "\e90b";
+}
+.i-close:before {
+	content: "\e90c";
+}
+.i-refresh:before {
+	content: "\e90d";
+}
+.i-down:before {
+	content: "\e90e";
+}
+.i-left:before {
+	content: "\e90f";
+}
+.i-right:before {
+	content: "\e910";
+}
+.i-up:before {
+	content: "\e911";
+}
+.i-down-alt:before {
+	content: "\e912";
+}
+.i-left-alt:before {
+	content: "\e913";
+}
+.i-up-alt:before {
+	content: "\e914";
+}
+.i-left-round:before {
+	content: "\e915";
+}
+.i-up-round:before {
+	content: "\e916";
+}
+.i-right-round:before {
+	content: "\e917";
+}
+.i-down-round:before {
+	content: "\e918";
 }

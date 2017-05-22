@@ -448,22 +448,50 @@ table wrappers END
 
 
 /***********************
- product-description-tabs BEGIN
+tabs BEGIN
 ***********************/
 $(document).ready(function() {
-	$('.product-description-tabs a').on('click',function (e) {
+	$('.tab-links a').on('click',function (e) {
 		e.preventDefault();
 		var index = $(this).index();
-		select_product_description_tab(index);
+		var parent = $(this).parents('.js-block-with-tabs');
+		select_tab(index,parent);
 	});
 
-	function select_product_description_tab(index) {
-		$('.product-description-tabs a').removeClass('active').eq(index).addClass('active');
-		$('.product-description-tab').removeClass('active').eq(index).addClass('active');
+	function select_tab(index,parent) {
+		parent.find('.tab-links a').removeClass('active').eq(index).addClass('active');
+		parent.find('.tab-block').removeClass('active').eq(index).addClass('active');
 	}
 
-	select_product_description_tab(0);
+	$('.js-block-with-tabs').each(function () {
+		select_tab(0,$(this));
+	});
+
+	$('.js-without-reg-link').on('click',function (e) {
+		e.preventDefault();
+		var parent = $(this).parents('.js-block-with-tabs');
+		select_tab(0,parent);
+	})
 });
 /***********************
- product-description-tabs END
+tabs END
+***********************/
+
+
+/***********************
+ подсмотр пароля BEGIN
+***********************/
+$(document).ready(function() {
+	$('.pass-show').click(function(e) {
+		$(this).toggleClass('open');
+		var pass_input = $(this).parents('.input-group').find('input').get(0);
+		if (pass_input.type=='password'){
+			pass_input.type='text';
+		} else {
+			pass_input.type='password';
+		}
+	});
+});
+/***********************
+ подсмотр пароля END
 ***********************/

@@ -128,13 +128,13 @@
 </section>
 
 
-<section class="s-product-description l-block--margin">
-	<div class="product-description-tabs">
+<section class="s-product-description l-block--margin js-block-with-tabs">
+	<div class="tab-links">
 		<a href="#" class="h3 active">Характеристики</a>
 		<a href="#" class="h3">Описание</a>
 	</div>
 
-	<div class="product-description-tab l-block">
+	<div class="tab-block l-block">
 		<table>
 			<thead>
 				<tr>
@@ -213,7 +213,7 @@
 		</table>
 	</div>
 
-	<div class="product-description-tab l-block active">
+	<div class="tab-block l-block">
 		<div class="row">
 			<div class="grid-8 grid-12_s">
 				<div class="product-description-text">
