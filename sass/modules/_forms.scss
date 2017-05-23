@@ -345,6 +345,7 @@ textarea{
 	}
 
 	&__title{
+		display: block;
 		color: $grey;
 		width: 140px;
 		max-width: 100%;
@@ -357,6 +358,7 @@ textarea{
 		display: flex;
 		flex-wrap: wrap;
 		a{
+			display: block;
 			margin: 5px;
 		}
 		img{

@@ -1832,6 +1832,14 @@ table td {
   margin: 20px 0;
 }
 
+.color-brand {
+  color: #e31e24;
+}
+
+.color-red {
+  color: #e31e24;
+}
+
 .hidden {
   display: none !important;
 }
@@ -2147,6 +2155,12 @@ table td {
 }
 
 .page-main {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 100%;
   -webkit-flex-shrink: 1;
   -ms-flex-negative: 1;
@@ -2173,6 +2187,12 @@ table td {
 
 .l-block--bb {
   border-bottom: 1px solid #eeeeee;
+}
+
+.l-block--height {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
 .to-top-link {
@@ -2625,6 +2645,7 @@ textarea {
 }
 
 .social-login__title {
+  display: block;
   color: #8f8f8f;
   width: 140px;
   max-width: 100%;
@@ -2646,6 +2667,7 @@ textarea {
 }
 
 .social-login__links a {
+  display: block;
   margin: 5px;
 }
 
@@ -5782,6 +5804,13 @@ button::-moz-focus-inner {
 
 .cart-auth-block__half .h1 {
   margin-bottom: 0.5em;
+}
+
+.top-errors {
+  margin-bottom: 20px;
+  font-weight: 500;
+  background: rgba(227, 30, 36, 0.15);
+  padding: 5px;
 }
 
 /*# sourceMappingURL=main.css.map */

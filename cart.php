@@ -110,7 +110,7 @@
 	</div>
 
 	<!--Без авторзиации-->
-	<form class="tab-block checkout-form">
+	<form action="/thanks.php" class="tab-block checkout-form">
 
 		<div class="l-block l-block--bb">
 			<label class="style-radio">
@@ -243,16 +243,14 @@
 					</form>
 				</div>
 				<div class="l-block social-login">
-
-						<span class="social-login__title">Войти через</span>
-						<div class="social-login__links">
-							<a href="#"><img src="img/s_vk.png" alt="1"></a>
-							<a href="#"><img src="img/s_face.png" alt="1"></a>
-							<a href="#"><img src="img/s_twitter.png" alt="1"></a>
-							<a href="#"><img src="img/s_ya.png" alt="1"></a>
-							<a href="#"><img src="img/s_google.png" alt="1"></a>
-						</div>
-
+					<span class="social-login__title">Войти через</span>
+					<div class="social-login__links">
+						<a href="#"><img src="img/s_vk.png" alt="1"></a>
+						<a href="#"><img src="img/s_face.png" alt="1"></a>
+						<a href="#"><img src="img/s_twitter.png" alt="1"></a>
+						<a href="#"><img src="img/s_ya.png" alt="1"></a>
+						<a href="#"><img src="img/s_google.png" alt="1"></a>
+					</div>
 				</div>
 			</div>
 

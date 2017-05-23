@@ -39,8 +39,8 @@
 		</div>
 
 		<nav class="top-nav top-nav--user">
-			<a href="#" class="top-nav__item"><i class="i-enter"></i>Вход</a>
-			<a href="#" class="top-nav__item">Регистрация</a>
+			<a href="/u-login.php" class="top-nav__item"><i class="i-enter"></i>Вход</a>
+			<a href="/u-registration.php" class="top-nav__item">Регистрация</a>
 			<div class="top-nav__item top-nav__item--has-sub">
 				<a href="#">vlad@arkhipov.ru</a>
 				<div class="top-nav__sub">
@@ -108,9 +108,9 @@
 	</div>
 
 	<div class="mob-user">
-		<a href="#" class="top-nav__item"><i class="i-enter"></i>Вход</a>
-		<a href="#" class="top-nav__item">Регистрация</a>
-		<!--<a href="#" class="top-nav__item">Личный кабинет</a>-->
+		<a href="/u-login.php" class="top-nav__item"><i class="i-enter"></i>Вход</a>
+		<a href="/u-regisration.php" class="top-nav__item">Регистрация</a>
+		<a href="#" class="top-nav__item">Личный кабинет</a>
 	</div>
 
 	<form action="#" class="head-search__form">
