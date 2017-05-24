@@ -146,21 +146,6 @@ $(document).ready(function(){
 
 
 /***********************
-Custom scrollbars BEGIN
-***********************/
-$(document).ready(function(){
-	$(".scroll").mCustomScrollbar({
-		axis:"y",
-		scrollInertia: 200,
-		scrollButtons:{ enable: true }
-	});
-});
-/***********************
-Custom scrollbars END
-***********************/
-
-
-/***********************
 mobile-search BEGIN
 ***********************/
 $(document).ready(function() {
