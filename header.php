@@ -29,7 +29,7 @@
 			<a href="/tipovaja.php" class="top-nav__item">Доставка</a>
 			<a href="/tipovaja.php" class="top-nav__item">Оплата</a>
 			<a href="/tipovaja.php" class="top-nav__item">Гарантия и возврат</a>
-			<a href="#" class="top-nav__item">Контакты</a>
+			<a href="/contacts.php" class="top-nav__item">Контакты</a>
 		</nav>
 
 		<div class="top-social">
@@ -42,11 +42,11 @@
 			<a href="/u-login.php" class="top-nav__item"><i class="i-enter"></i>Вход</a>
 			<a href="/u-registration.php" class="top-nav__item">Регистрация</a>
 			<div class="top-nav__item top-nav__item--has-sub">
-				<a href="#">vlad@arkhipov.ru</a>
+				<a href="/lk-profile.php">vlad@arkhipov.ru</a>
 				<div class="top-nav__sub">
-					<a href="#">Профиль</a>
-					<a href="#">Подписка</a>
-					<a href="#">История заказов</a>
+					<a href="/lk-profile.php">Профиль</a>
+					<a href="/lk-subscribe.php">Подписка</a>
+					<a href="/lk-history.php">История заказов</a>
 				</div>
 			</div>
 		</nav>
@@ -143,7 +143,7 @@
 		<a href="#">Комплектация и гравировка</a>
 		<a href="#">Гарантия и возврат</a>
 		<a href="#">Ответственность покупателя</a>
-		<a href="#">Контакты</a>
+		<a href="/contacts.php">Контакты</a>
 	</nav>
 
 	<div class="top-social">

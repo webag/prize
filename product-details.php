@@ -129,7 +129,7 @@
 
 
 <section class="s-product-description l-block--margin js-block-with-tabs">
-	<div class="tab-links">
+	<div class="tab-links js-tab-links">
 		<a href="#" class="h3 active">Характеристики</a>
 		<a href="#" class="h3">Описание</a>
 	</div>

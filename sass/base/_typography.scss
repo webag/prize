@@ -88,6 +88,11 @@ h5,.h5{
 	i{
 		margin-left: 7px;
 		font-size: 19px;
+
+		&.i-left-round{
+			margin-left: 0;
+			margin-right: 7px;
+		}
 	}
 
 	&:hover{

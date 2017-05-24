@@ -23,6 +23,18 @@ i {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.i-reload:before {
+	content: "\e91b";
+}
+.i-envelope:before {
+	content: "\e91c";
+}
+.i-clock:before {
+	content: "\e91d";
+}
+.i-phone:before {
+	content: "\e91e";
+}
 .i-eye-open:before {
 	content: "\e919";
 }

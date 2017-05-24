@@ -104,7 +104,7 @@
 
 
 <section class="l-block--margin js-block-with-tabs" id="checkout">
-	<div class="tab-links">
+	<div class="tab-links js-tab-links">
 		<a href="#" class="h3 active">Без авторзиации</a>
 		<a href="#" class="h3">Авторизоваться</a>
 	</div>

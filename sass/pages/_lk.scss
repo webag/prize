@@ -1,0 +1,98 @@
+.s-history-list{
+
+}
+
+
+.history-item{
+	position: relative;
+	display: flex;
+	align-items: center;
+	@extend %side-padding;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid $color-body;
+	background: #FFF;
+	@include res(l){
+		font-size: 14px;
+	}
+	@include res(s){
+		flex-wrap: wrap;
+	}
+
+	&:last-child{
+		border-bottom: none;
+		.history-item__link{
+
+		}
+	}
+
+	&:hover{
+		background-color: #f8f8f8;
+	}
+
+	&__col{
+		position: relative;
+		z-index: 2;
+		flex: 1 1 auto;
+		padding: 5px 10px 5px 0;
+		line-height: 1.2;
+		pointer-events: none;
+		@include res(s){
+			width: 100% !important;
+		}
+
+		&--name{
+			width: 30%;
+
+			a{
+				color: $color-brand;
+				text-decoration: none;
+			}
+		}
+
+		&--date{
+			width: 20%;
+		}
+
+		&--state{
+			width: 20%;
+		}
+
+		&--price{
+			white-space: nowrap;
+			width: 20%;
+		}
+
+		&--btn{
+			flex-shrink: 0;
+			padding-right: 0;
+			pointer-events: all;
+		}
+	}
+
+	&__link{
+		position: absolute;
+		z-index: 1;
+		cursor: pointer;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+
+.history-param{
+
+	&--summary{
+		margin: 10px 0 20px 0;
+	}
+
+	&__name{
+		color: $grey;
+	}
+
+	&__val{
+		color: $black;
+	}
+}

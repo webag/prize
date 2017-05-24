@@ -75,6 +75,13 @@
 		}
 	}
 
+	&--margin-top{
+		margin-top: 35px;
+		@include res(s){
+			margin-top: 15px;
+		}
+	}
+
 	&--bt{
 		border-top: 1px solid $color-body;
 	}
@@ -84,6 +91,7 @@
 
 	&--height{
 		flex: 1 0 auto;
+		background-color: #FFF;
 	}
 }
 //blocks

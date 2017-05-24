@@ -451,7 +451,7 @@ table wrappers END
 tabs BEGIN
 ***********************/
 $(document).ready(function() {
-	$('.tab-links a').on('click',function (e) {
+	$('.js-tab-links a').on('click',function (e) {
 		e.preventDefault();
 		var index = $(this).index();
 		var parent = $(this).parents('.js-block-with-tabs');
@@ -459,7 +459,7 @@ $(document).ready(function() {
 	});
 
 	function select_tab(index,parent) {
-		parent.find('.tab-links a').removeClass('active').eq(index).addClass('active');
+		parent.find('.js-tab-links a').removeClass('active').eq(index).addClass('active');
 		parent.find('.tab-block').removeClass('active').eq(index).addClass('active');
 	}
 
