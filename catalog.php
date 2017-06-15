@@ -164,6 +164,77 @@
 
 	<div class="product">
 		<div class="product__images">
+			<div class="product-big-slider__item">
+				<a href="img/products/2.jpg" class="fancy" data-fancybox="ID_3">
+					<img src="img/products/2.jpg" alt="cart">
+					<span>Увеличить</span>
+				</a>
+			</div>
+		</div>
+		<div class="product__content">
+			<div class="product-header">
+				<h3 class="h3"><a href="/product-details.php">Кубок 12043</a></h3>
+				<div class="prod-item__labels">
+					<div class="prod-item__label prod-item__label--new"><i class="i-flash"></i>Новинка</div>
+					<div class="prod-item__label prod-item__label--sale"><i class="i-percentage"></i>Скидка</div>
+					<div class="prod-item__label prod-item__label--hit"><i class="i-star"></i>Хит</div>
+				</div>
+			</div>
+			<div class="product-table">
+				<div class="product-table__row product-table__row--head">
+					<div class="product-table__col product-table__col--name">Код продукта</div>
+					<div class="product-table__col product-table__col--nal">Наличие</div>
+					<div class="product-table__col product-table__col--price">Цена</div>
+					<div class="product-table__col product-table__col--num">Количество</div>
+					<div class="product-table__col"></div>
+				</div>
+
+				<div class="product-table__row">
+					<div class="product-table__col product-table__col--name">Кубок 12043 (32 см) D-100</div>
+					<div class="product-table__col product-table__col--nal">20 шт</div>
+					<div class="product-table__col product-table__col--price"><strong>2 405 <span class="rub">a</span></strong></div>
+					<div class="product-table__col product-table__col--num">
+						<div class="numblock">
+							<span class="numblock__btn">-</span>
+							<input type="text" value="1">
+							<span class="numblock__btn">+</span>
+						</div>
+					</div>
+					<div class="product-table__col"><a href="#" class="btn">В корзину</a></div>
+				</div>
+				<div class="product-table__row">
+					<div class="product-table__col product-table__col--name">Кубок 12043</div>
+					<div class="product-table__col product-table__col--nal">20 шт</div>
+					<div class="product-table__col product-table__col--price"><strong>2 405 <span class="rub">a</span></strong></div>
+					<div class="product-table__col product-table__col--num">
+						<div class="numblock">
+							<span class="numblock__btn">-</span>
+							<input type="text" value="1">
+							<span class="numblock__btn">+</span>
+						</div>
+					</div>
+					<div class="product-table__col"><a href="#" class="btn">В корзину</a></div>
+				</div>
+				<div class="product-table__row">
+					<div class="product-table__col product-table__col--name">Кубок 12043 (32 см) D-100 12043 (32 см) D-100</div>
+					<div class="product-table__col product-table__col--nal">20 шт</div>
+					<div class="product-table__col product-table__col--price"><strong>234 405 <span class="rub">a</span></strong></div>
+					<div class="product-table__col product-table__col--num">
+						<div class="numblock">
+							<span class="numblock__btn">-</span>
+							<input type="text" value="1">
+							<span class="numblock__btn">+</span>
+						</div>
+					</div>
+					<div class="product-table__col"><a href="#" class="btn">В корзину</a></div>
+				</div>
+			</div>
+			<a href="/product-details.php" class="link-with-icon">Подробнее о товаре <i class="i-right-round"></i></a>
+		</div>
+	</div>
+
+	<div class="product">
+		<div class="product__images">
 			<div class="product-big-slider">
 				<div class="product-big-slider__item">
 					<a href="img/products/1.jpg" class="fancy" data-fancybox="ID_1">
@@ -288,6 +359,77 @@
 
 	<div class="product">
 		<div class="product__images">
+			<div class="product-big-slider__item">
+				<a href="img/products/2.jpg" class="fancy" data-fancybox="ID_3">
+					<img src="img/products/2.jpg" alt="cart">
+					<span>Увеличить</span>
+				</a>
+			</div>
+		</div>
+		<div class="product__content">
+			<div class="product-header">
+				<h3 class="h3"><a href="/product-details.php">Кубок 12043</a></h3>
+				<div class="prod-item__labels">
+					<div class="prod-item__label prod-item__label--new"><i class="i-flash"></i>Новинка</div>
+					<div class="prod-item__label prod-item__label--sale"><i class="i-percentage"></i>Скидка</div>
+					<div class="prod-item__label prod-item__label--hit"><i class="i-star"></i>Хит</div>
+				</div>
+			</div>
+			<div class="product-table">
+				<div class="product-table__row product-table__row--head">
+					<div class="product-table__col product-table__col--name">Код продукта</div>
+					<div class="product-table__col product-table__col--nal">Наличие</div>
+					<div class="product-table__col product-table__col--price">Цена</div>
+					<div class="product-table__col product-table__col--num">Количество</div>
+					<div class="product-table__col"></div>
+				</div>
+
+				<div class="product-table__row">
+					<div class="product-table__col product-table__col--name">Кубок 12043 (32 см) D-100</div>
+					<div class="product-table__col product-table__col--nal">20 шт</div>
+					<div class="product-table__col product-table__col--price"><strong>2 405 <span class="rub">a</span></strong></div>
+					<div class="product-table__col product-table__col--num">
+						<div class="numblock">
+							<span class="numblock__btn">-</span>
+							<input type="text" value="1">
+							<span class="numblock__btn">+</span>
+						</div>
+					</div>
+					<div class="product-table__col"><a href="#" class="btn">В корзину</a></div>
+				</div>
+				<div class="product-table__row">
+					<div class="product-table__col product-table__col--name">Кубок 12043</div>
+					<div class="product-table__col product-table__col--nal">20 шт</div>
+					<div class="product-table__col product-table__col--price"><strong>2 405 <span class="rub">a</span></strong></div>
+					<div class="product-table__col product-table__col--num">
+						<div class="numblock">
+							<span class="numblock__btn">-</span>
+							<input type="text" value="1">
+							<span class="numblock__btn">+</span>
+						</div>
+					</div>
+					<div class="product-table__col"><a href="#" class="btn">В корзину</a></div>
+				</div>
+				<div class="product-table__row">
+					<div class="product-table__col product-table__col--name">Кубок 12043 (32 см) D-100 12043 (32 см) D-100</div>
+					<div class="product-table__col product-table__col--nal">20 шт</div>
+					<div class="product-table__col product-table__col--price"><strong>234 405 <span class="rub">a</span></strong></div>
+					<div class="product-table__col product-table__col--num">
+						<div class="numblock">
+							<span class="numblock__btn">-</span>
+							<input type="text" value="1">
+							<span class="numblock__btn">+</span>
+						</div>
+					</div>
+					<div class="product-table__col"><a href="#" class="btn">В корзину</a></div>
+				</div>
+			</div>
+			<a href="/product-details.php" class="link-with-icon">Подробнее о товаре <i class="i-right-round"></i></a>
+		</div>
+	</div>
+
+	<div class="product">
+		<div class="product__images">
 			<div class="product-big-slider">
 				<div class="product-big-slider__item">
 					<a href="img/products/1.jpg" class="fancy" data-fancybox="ID_2">
@@ -360,79 +502,6 @@
 					<div class="product-table__col product-table__col--name">Кубок 12043 (32 см) D-100 12043 (32 см) D-100</div>
 					<div class="product-table__col product-table__col--nal">20 шт</div>
 					<div class="product-table__col product-table__col--price"><strong>2 405 <span class="rub">a</span></strong></div>
-					<div class="product-table__col product-table__col--num">
-						<div class="numblock">
-							<span class="numblock__btn">-</span>
-							<input type="text" value="1">
-							<span class="numblock__btn">+</span>
-						</div>
-					</div>
-					<div class="product-table__col"><a href="#" class="btn">В корзину</a></div>
-				</div>
-			</div>
-			<a href="/product-details.php" class="link-with-icon">Подробнее о товаре <i class="i-right-round"></i></a>
-		</div>
-	</div>
-
-	<div class="product">
-		<div class="product__images">
-			<div class="product-big-slider">
-				<div class="product-big-slider__item">
-					<a href="img/products/2.jpg" class="fancy" data-fancybox="ID_3">
-						<img src="img/products/2.jpg" alt="cart">
-						<span>Увеличить</span>
-					</a>
-				</div>
-			</div>
-		</div>
-		<div class="product__content">
-			<div class="product-header">
-				<h3 class="h3"><a href="/product-details.php">Кубок 12043</a></h3>
-				<div class="prod-item__labels">
-					<div class="prod-item__label prod-item__label--new"><i class="i-flash"></i>Новинка</div>
-					<div class="prod-item__label prod-item__label--sale"><i class="i-percentage"></i>Скидка</div>
-					<div class="prod-item__label prod-item__label--hit"><i class="i-star"></i>Хит</div>
-				</div>
-			</div>
-			<div class="product-table">
-				<div class="product-table__row product-table__row--head">
-					<div class="product-table__col product-table__col--name">Код продукта</div>
-					<div class="product-table__col product-table__col--nal">Наличие</div>
-					<div class="product-table__col product-table__col--price">Цена</div>
-					<div class="product-table__col product-table__col--num">Количество</div>
-					<div class="product-table__col"></div>
-				</div>
-
-				<div class="product-table__row">
-					<div class="product-table__col product-table__col--name">Кубок 12043 (32 см) D-100</div>
-					<div class="product-table__col product-table__col--nal">20 шт</div>
-					<div class="product-table__col product-table__col--price"><strong>2 405 <span class="rub">a</span></strong></div>
-					<div class="product-table__col product-table__col--num">
-						<div class="numblock">
-							<span class="numblock__btn">-</span>
-							<input type="text" value="1">
-							<span class="numblock__btn">+</span>
-						</div>
-					</div>
-					<div class="product-table__col"><a href="#" class="btn">В корзину</a></div>
-				</div>
-				<div class="product-table__row">
-					<div class="product-table__col product-table__col--name">Кубок 12043</div>
-					<div class="product-table__col product-table__col--nal">20 шт</div>
-					<div class="product-table__col product-table__col--price"><strong>2 405 <span class="rub">a</span></strong></div>
-					<div class="product-table__col product-table__col--num">
-						<div class="numblock">
-							<span class="numblock__btn">-</span>
-							<input type="text" value="1">
-							<span class="numblock__btn">+</span>
-						</div>
-					</div>
-					<div class="product-table__col"><a href="#" class="btn">В корзину</a></div>
-				</div>
-				<div class="product-table__row">
-					<div class="product-table__col product-table__col--name">Кубок 12043 (32 см) D-100 12043 (32 см) D-100</div>
-					<div class="product-table__col product-table__col--nal">20 шт</div>
-					<div class="product-table__col product-table__col--price"><strong>234 405 <span class="rub">a</span></strong></div>
 					<div class="product-table__col product-table__col--num">
 						<div class="numblock">
 							<span class="numblock__btn">-</span>
