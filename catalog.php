@@ -165,7 +165,7 @@
 	<div class="product">
 		<div class="product__images">
 			<div class="product-big-slider__item">
-				<a href="img/products/2.jpg" class="fancy" data-fancybox="ID_3">
+				<a href="img/products/2-2.jpg" class="fancy" data-fancybox="ID_3">
 					<img src="img/products/2.jpg" alt="cart">
 					<span>Увеличить</span>
 				</a>
@@ -244,7 +244,7 @@
 				</div>
 				<div class="product-big-slider__item">
 					<a href="img/products/2.jpg" class="fancy" data-fancybox="ID_1">
-						<img src="img/products/2.jpg" alt="cart">
+						<img src="img/products/2-2.jpg" alt="cart">
 						<span>Увеличить</span>
 					</a>
 				</div>
@@ -279,10 +279,10 @@
 					<img src="img/products/1.jpg" alt="cart">
 				</div>
 				<div class="product-small-slider__item">
-					<img src="img/products/2.jpg" alt="cart">
+					<img src="img/products/2-2.jpg" alt="cart">
 				</div>
 				<div class="product-small-slider__item">
-					<img src="img/products/3.jpg" alt="cart">
+					<img src="img/products/2-2.jpg" alt="cart">
 				</div>
 				<div class="product-small-slider__item">
 					<img src="img/products/4.jpg" alt="cart">

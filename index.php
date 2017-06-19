@@ -81,7 +81,7 @@
 				<div class="prod-item__labels">
 					<div class="prod-item__label prod-item__label--hit"><i class="i-star"></i>Хит</div>
 				</div>
-				<img src="img/products/2.jpg" alt="1">
+				<img src="img/products/2-2.jpg" alt="1">
 			</div>
 			<div class="prod-item__content">
 				<h5 class="h5 prod-item__title">Кубок 2057</h5>

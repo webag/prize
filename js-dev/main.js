@@ -410,6 +410,7 @@ $(document).ready(function() {
 			focusOnSelect: true,
 			accessibility: false,
 			verticalSwiping: true,
+			adaptiveHeight: true,
 			asNavFor: sliderId
 		});
 	})
