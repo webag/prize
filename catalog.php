@@ -99,11 +99,157 @@
 					<input type="checkbox" disabled>
 					<span>10см</span>
 				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>50см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>40см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>30см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>20см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox" disabled>
+					<span>10см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>50см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>40см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>30см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>20см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox" disabled>
+					<span>10см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>50см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>40см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>30см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>20см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox" disabled>
+					<span>10см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>50см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>40см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>30см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>20см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox" disabled>
+					<span>10см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>50см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>40см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>30см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>20см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox" disabled>
+					<span>10см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>50см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>40см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>30см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>20см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox" disabled>
+					<span>10см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>50см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>40см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>30см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox">
+					<span>20см</span>
+				</label>
+				<label class="style-checkbox">
+					<input type="checkbox" disabled>
+					<span>10см</span>
+				</label>
 			</main>
 		</div>
 		<div class="filter">
 			<header class="filter__title">Материал</header>
 			<main class="filter__drop">
+				<a href="#" class="filter-mod" id="modef">
+					<div class="filter-mod__num">Выбрано:
+						<span id="modef_num">0</span>
+					</div>
+					<span class="filter-mod__show">Показать</span>
+				</a>
 				<label class="style-checkbox">
 					<input type="checkbox">
 					<span>Золото</span>
@@ -121,6 +267,12 @@
 		<div class="filter">
 			<header class="filter__title">Акции</header>
 			<main class="filter__drop">
+				<a href="#" class="filter-mod" id="modef">
+					<div class="filter-mod__num">Выбрано:
+						<span id="modef_num">0</span>
+					</div>
+					<span class="filter-mod__show">Показать</span>
+				</a>
 				<label class="style-checkbox">
 					<input type="checkbox">
 					<span>Хиты продаж</span>
