@@ -22,6 +22,10 @@
 		<div class="filter">
 			<header class="filter__title">Цена, <span class="rub">a</span></header>
 			<main class="filter__drop">
+				<a href="#" class="filter-mod" id="modef">
+					<div class="filter-mod__num">Выбрано: <span id="modef_num">0</span></div>
+					<span class="filter-mod__show">Показать</span>
+				</a>
 				<div class="price-filter">
 					<div class="price-filter__header">
 						<label>
@@ -40,6 +44,10 @@
 		<div class="filter">
 			<header class="filter__title">Цвет</header>
 			<main class="filter__drop">
+				<a href="#" class="filter-mod" id="modef">
+					<div class="filter-mod__num">Выбрано: <span id="modef_num">0</span></div>
+					<span class="filter-mod__show">Показать</span>
+				</a>
 				<label class="style-checkbox">
 					<input type="checkbox">
 					<span>Красный</span>
@@ -65,6 +73,12 @@
 		<div class="filter">
 			<header class="filter__title">Размер</header>
 			<main class="filter__drop">
+				<a href="#" class="filter-mod" id="modef">
+					<div class="filter-mod__num">Выбрано:
+						<span id="modef_num">0</span>
+					</div>
+					<span class="filter-mod__show">Показать</span>
+				</a>
 				<label class="style-checkbox">
 					<input type="checkbox">
 					<span>50см</span>
