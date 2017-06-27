@@ -3,7 +3,7 @@
 
 <section class="big-slider l-block--margin">
 
-	<div class="big-slide">
+	<div class="big-slide" style="background-image: url('/img/slider/bg.jpg')">
 		<div class="big-slide__img">
 			<img src="img/slider/for.png" alt="for">
 		</div>
@@ -17,7 +17,7 @@
 		</div>
 	</div>
 
-	<div class="big-slide">
+	<div class="big-slide" style="background-image: url('/img/slider/bg.jpg')">
 		<div class="big-slide__img">
 			<img src="img/slider/for.png" alt="for">
 		</div>

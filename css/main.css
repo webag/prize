@@ -4328,7 +4328,8 @@ button::-moz-focus-inner {
 .big-slide {
   width: 100%;
   height: auto;
-  background: url("../img/slider/bg.jpg") center center no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
   display: -webkit-flex;
